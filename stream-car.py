@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 # load save model 
-model = pickle.load(open('carprice_model.sav', 'rb'))
+model = pickle.load(open('caprice_model.sav', 'rb'))
 
 # Judul Untuk Web
 st.title('Data Mining Prediksi Car Popularity')
